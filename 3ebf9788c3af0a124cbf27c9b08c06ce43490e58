@@ -1,0 +1,5 @@
+[ver:1,total:1080]
+serverless/serverless.yml:690,1521442800:60,1521446400:630,r
+serverless/package.json:210,1521442800:60,1521446400:150,r
+package.json:120,1521450000:120,m
+src/util.ts:60,1521450000:60,r
