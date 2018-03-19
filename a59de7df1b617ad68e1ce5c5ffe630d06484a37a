@@ -1,0 +1,12 @@
+[ver:1,total:2340]
+src/util.ts:884,1521446400:560,1521450000:324,r
+src/api.ts:830,1521450000:830,m
+src/chrome/local-runtime.ts:316,1521446400:160,1521450000:156,r
+serverless/src/run.ts:120,1521450000:120,r
+package.json:60,1521450000:60,r
+src/types.ts:30,1521450000:30,r
+serverless/src/session.ts:20,1521450000:20,r
+examples/google-screenshot.js:20,1521450000:20,r
+serverless/src/utils.ts:20,1521450000:20,r
+docs/api.md:20,1521450000:20,r
+serverless/src/version.ts:20,1521450000:20,r
