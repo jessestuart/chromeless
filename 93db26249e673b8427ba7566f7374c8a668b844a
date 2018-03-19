@@ -1,0 +1,8 @@
+[ver:1,total:1560]
+src/chrome/local-runtime.ts:570,1521453600:540,1521457200:30,m
+src/util.ts:430,1521453600:430,m
+src/api.ts:240,1521453600:240,m
+docs/api.md:150,1521457200:150,m
+src/types.ts:80,1521453600:50,1521457200:30,m
+src/util.test.ts:60,1521453600:60,m
+README.md:30,1521457200:30,r
