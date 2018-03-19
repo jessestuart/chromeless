@@ -239,6 +239,9 @@ export default class Chromeless<T extends any> implements Promise<T> {
     selector?: string,
     options?: ScreenshotOptions,
   ): Chromeless<string> {
+    // This is to allow the user to only pass one argument to `screenshot()`
+    // if you want to specify `options` but no `selector`.
+    // TODO: An "options" param pattern would make this much more intuitive.
     if (typeof selector === 'object') {
       options = selector
       selector = undefined
