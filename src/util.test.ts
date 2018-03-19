@@ -56,3 +56,15 @@ test('screenshot by selector', async t => {
   t.is(png.width, versionMajor > 60 ? 512 : 1440)
   t.is(png.height, versionMajor > 60 ? 512 : 900)
 })
+
+test('screenshot without selector', async t => {
+  const chromeless = new Chromeless({ launchChrome: false })
+  const screenshot = await chromeless.goto(testUrl).screenshot()
+  console.log({ screenshot })
+
+  await chromeless.end()
+
+  const png = await getPngMetaData(screenshot)
+  t.is(png.width, 1440)
+  t.is(png.height, 900)
+})
