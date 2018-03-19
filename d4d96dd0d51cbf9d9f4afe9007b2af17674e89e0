@@ -1,0 +1,8 @@
+[ver:1,total:1500]
+src/util.test.ts:1160,1521450000:680,1521453600:480,m
+README.md:100,1521450000:100,r
+src/__tests__/test.html:90,1521450000:90,r
+package.json:60,1521450000:60,r
+examples/mocha-chai-test-example.js:30,1521450000:30,r
+src/chrome/local-runtime.ts:30,1521450000:30,r
+CONTRIBUTING.md:30,1521450000:30,r
